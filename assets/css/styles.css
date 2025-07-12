@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: white;
+    background-color: black;
+    display: flex;
+    align-items: center;
+}
+
+.profile {
+    width: 100%;
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #1a1a1a;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.profile-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.name{
+    font-family: 'inter', sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.country {
+    font-size: 1.2em;
+    color: #c5f82b;
+}
+
+.role{
+    font-size: 1.1em;
+    margin-top: 10px;
+}
+
+.social-links {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.social-links li {
+    margin: 10px 0;
+    width: 100%;
+}
+.social-links a {
+    font-family: 'inter', sans-serif;
+    width: 100%;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    border-radius: 6px;
+    border-color: white;
+    background-color: #323332;
+    display: inline-block;
+    padding: 10px 0px;
+}
+
+.social-links a:hover {
+    background-color: #c5f82b;
+    color: black;
+}
